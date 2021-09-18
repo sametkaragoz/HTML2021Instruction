@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <h1>Kayıt Formu</h1>
+    <form action="server/kayit.js">
+      <input type="hidden" name="id" value="123456789" />
+      <p>
+        <label for="ad">Adınız</label>
+        <input id="ad" type="text" value="Ali" />
+      </p>
+      ​
+      <p>
+        <label for="soyad">Soyadınız</label>
+        <input id="soyad" type="text" placeholder="Soyadınızı giriniz" />
+      </p>
+      ​
+      <p>
+        <label for="sifre">Sifreniz</label>
+        <input id="sifre" type="password" />
+      </p>
+
+      <p>
+        <label for="deneyim">Deneyim</label>
+        <input id="deneyim" type="number" />
+      </p>
+
+      <p>
+        <label for="ara">Ara</label>
+        <input id="ara" type="search" />
+      </p>
+
+      <p>
+        <label for="hobiler">Hobileriniz</label><br />
+        ​
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="futbol" id="futbol" value="futbol" /><br />
+        ​
+        <label for="basketbol">Basketbol</label>
+        <input
+          type="checkbox"
+          name="basketbol"
+          id="basketbol"
+          value="basketbol"
+        />
+        <br />
+        ​
+        <label for="voleybol">Voleybol</label>
+        <input type="checkbox" name="voleybol" id="voleybol" value="voleybol" />
+      </p>
+      ​
+      <p>
+        <input type="submit" value="Gönder" disabled />
+        <input type="button" value="Kontrol Et" />
+        <input type="reset" value="Temizle" />
+      </p>
+    </form>
+  </body>
+</html>
