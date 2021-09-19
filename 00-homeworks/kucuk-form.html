@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Kayit Formu</h1>
+        <table class="form">
+            <form action="server/kayit.js" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <p>
+                                <label for="eposta">E-posta</label>
+
+                            </p>
+                        </td>
+                        <td></td>
+                        <td colspan="3" align="right">
+                            <input 
+                            type="text"
+                            id="eposta"
+                            name="eposta">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <label for="right">Sifre</label>
+
+                            </p>
+                        </td>
+                        <td></td>
+                        <td colspan="3" align="right">
+                            <input 
+                            type="password"
+                            id="sifre"
+                            name="sifre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <label for="kod">Guvenik Kodu</label>
+
+                            </p>
+                        </td>
+                        <td colspan="3"></td>
+                        <td colspan="3" align="right">
+                            <input 
+                            type="text"
+                            id="kod"
+                            name="kod">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" align="middle">
+                            <p>
+                                <input type="submit" value="Kaydet">
+                                <input type="reset" value="Temizle">
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </table>     
+</body>
+</html>
