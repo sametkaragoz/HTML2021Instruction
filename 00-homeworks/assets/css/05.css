@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.menu {
+  background-color: rgb(206, 206, 206);
+  width: 300px;
+  list-style-type: "🌀";
+  list-style-position: inside;
+  padding: 0;
+}
+
+.menu li:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+.menu li:hover a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.aktif a {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.aktif {
+  background-color: rgb(58, 58, 58);
+}

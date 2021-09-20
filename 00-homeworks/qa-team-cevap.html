@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Örnekler</title>
+        <style>  
+            #form-alan{
+                background-color: aqua;
+            width: 600px;
+            margin-top: 25px;
+            }
+ 
+            #form-alan input, #form-alan textarea {
+            padding: 5px;
+            width: 471px;
+            font-family: Helvetica, sans-serif;
+            font-size: 1.4em;
+            margin: 0px 0px 10px 0px;
+            border: 2px solid #ccc;
+            }
+ 
+            #form-alan textarea {
+            height: 90px;
+            }
+ 
+            #form-alan textarea:focus, #form-alan input:focus {
+            border: 2px solid #900;
+            }
+ 
+            #form-alan input[type="submit"] {
+            width: 100px;
+            float: right;
+            border:3px solid #2980b9;
+            background: #fff;
+            color:#2980b9;
+            }
+ 
+            label {
+            float: left;
+            text-align: right;
+            margin-right: 15px;
+            width: 100px;
+            padding-top: 5px;
+            font-size: 1.4em;
+            }
+        </style>
+	</head>
+	<body>
+        <div id="form-alan">
+ 
+            <form method="post" action="#">
+            <label for="Ad">Ad:</label>
+            <input type="text" name="Ad" id="Ad" />
+ 
+            <label for="Soyad">Soyad:</label>
+            <input type="text" name="Soyad" id="Soyad" />
+ 
+            <label for="Email">Eposta:</label>
+            <input type="text" name="Email" id="Email" />
+ 
+            <label for="Mesaj">Mesaj:</label><br />
+            <textarea name="Mesaj" rows="20" cols="20" id="Mesaj"></textarea>
+ 
+            <input type="submit" name="kaydet" value="Kaydet" />
+            </form>
+        </div>
+	</body>
+</html>
