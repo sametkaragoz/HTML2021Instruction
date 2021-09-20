@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odev QA Team</title>
+    <style>
+        .text {
+            border: 2px solid ;
+            border-color: rgb(3, 127, 209);
+            color: rgb(3, 127, 209)
+
+        }
+    </style>
+</head>
+<body>
+    <form action="server/kayit.js" method="POST">
+        <table class="form">
+            <tr>
+                <td>
+                    <label for="ad">Ad</label>
+                </td>
+                <td>
+                    <input type="text" name="ad" id="ad">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="soyad">Soyad</label>
+                </td>
+                <td>
+                    <input type="text" name="soyad" id="soyad">
+                </td>>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eposta">E-posta</label>
+                </td>
+                <td>
+                    <input type="email" name="eposta" id="eposta">
+                </td>>
+            </tr>
+            <tr>
+                <td rowspan="2" valign="top">
+                    <label for="mesaj">Mesaj</label>
+                </td>
+                <td>
+                    <textarea name="mesaj" id="mesaj" cols="23" rows="4"></textarea>
+                </td>>
+            </tr>
+            <tr>
+                <td align="right"> 
+                    <input type="submit" name="Kaydet" value="Kaydet" class="text"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
