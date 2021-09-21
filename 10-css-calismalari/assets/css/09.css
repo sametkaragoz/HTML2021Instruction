@@ -1,0 +1,13 @@
+.menu {
+    width: 300px;
+}
+.menu .buton {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    border: 1px solid cornflowerblue;
+}
